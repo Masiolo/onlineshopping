@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/homeicon.png">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<a href="list.html">list</a>
+<a href="iframe.html">iframe</a>
+<a href="background.html">image</a>
+<a href="grid.html">grid</a>
+<a href="bootstrapform.html">bootstrap</a>
+<a href="details.html">details</a>
+<br>
+<!--id and class ---->
+
+<form action="" style="padding: 50px; margin-left: 200px; margin-right: 200px">
+   <fieldset>
+       <h1 id="heading1">Student information</h1>
+        <legend>user information</legend>
+    <label for="fname" class="form-label">Firstname :</label>
+    <input type="text" id="fname" class="form-control" placeholder="Enter first name">
+    <br>
+    <label for="sname" class="form-label">Surname :</label>
+    <input type="text" id="sname" class="form-control" placeholder="Enter Surname">
+    <br>
+    <label for="email" class="form-label">Email Address :</label>
+    <input type="email" id="email" class="form-control" >
+    <br>
+    <label for="pwd" class="form-label" >Password :</label>
+    <input type="password" id="pwd" class="form-control"><br>
+    <p>Which is your favourite game?</p>
+    <input type="checkbox">Basketball <br>
+    <input type="checkbox">Football <br>
+    <input type="checkbox">Hockey<br>
+    <input type="checkbox">Netball<br>
+
+    <p>which programming language are you proefficient in ?</p>
+    <input type="radio">Kotlin <br>
+    <input type="radio">Java <br>
+    <input type="radio">C++ <br>
+    <input type="radio">C <br>
+
+    <p>Fill in additional details ?</p>
+       <textarea name="" id="" cols="40" rows="5"></textarea><br>
+       select nationality:
+    <select name="country" id="country">
+        <option value="kenya">Kenya</option>
+        <option value="rwanda">Rwanda</option>
+        <option value="uganda">Uganda</option>
+        <option value="tanzania">Tanzania</option>
+
+    </select>
+    <br><br>
+    <button type="submit">Submit</button>
+   </fieldset>
+</form>
+<h1 class="patient">Patient Records</h1>
+<h1 class="employee">Employee Details</h1>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Row</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<form action="" style="padding: 50px; margin-left: 100px; margin-right: 100px">
+<h1>Form Row</h1>
+   <div class="row">
+       <div class="col">
+    <label for="fname" class="form-label">First Name</label>
+           <br>
+    <input type="text" id="fname" class="form-control" placeholder="First name">
+       </div>
+       <div class="col">
+    <label for="lname" class="form-label">Last Name</label>
+           <br>
+    <input type="text" id="lname" class="form-control" placeholder="Last name">
+
+       </div>
+
+    </div>
+
+    <br>
+
+    <label for="email" class="form-label">Address</label>
+    <input type="email" id="email" class="form-control" placeholder="Address">
+    <br>
+     <div class="row">
+         <div class="col-6">
+    <label for="city" class="form-label">City</label>
+             <br>
+    <input type="text" id="city" class="form-control" placeholder="city">
+             </div>
+         <div class="col">
+    <label for="state" class="form-label">State</label>
+             <br>
+    <select name="state" id="state">
+        <option value="select state" class="placeholder" >select state</option>
+        <option value="arizona">Arizona</option>
+        <option value="florida">Florida</option>
+        <option value="nevada">Nevada</option>
+        <option value="alaska">Alaska</option>
+        </select>
+             </div>
+         <div class="col">
+    <label for="pwd" class="form-label">Pin code</label>
+             <br>
+    <input type="password" id="pwd" class="form-control" placeholder="pincode">
+             </div>
+</div>
+    <br>
+    <input type="checkbox" id="checkbox"  >
+    <label for="checkbox" class="form-label" >I Agree to Terms and Conditions</label>
+    <br><br>
+    <button type="submit" class="btn btn-success">Submit</button>
+
+</form>
+
+</body>
+</html>
