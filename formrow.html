@@ -8,6 +8,25 @@
     <title>Form Row</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"></script>
+    <style>
+        form {
+            background-color: yellow;
+            margin-left: 250px;
+            margin-right: 250px;
+            padding-left: 70px;
+            padding-right: 70px;
+            padding-bottom: 50px;
+              border-radius: 5px;
+        }
+        body
+        {
+            background-image: url("images/img.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    </style>
+
 </head>
 <body>
 <form action="" style="padding: 50px; margin-left: 100px; margin-right: 100px">
@@ -41,7 +60,7 @@
          <div class="col">
     <label for="state" class="form-label">State</label>
              <br>
-    <select name="state" id="state">
+    <select name="state" id="state" class="form-select">
         <option value="select state" class="placeholder" >select state</option>
         <option value="arizona">Arizona</option>
         <option value="florida">Florida</option>
